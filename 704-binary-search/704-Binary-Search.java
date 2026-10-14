@@ -2,7 +2,7 @@ class Solution {
     public int search(int[] nums, int target) {
 
         int low =0;
-        int high = nums.length - 1;
+        int high = nums.length - 1;                  //  time complexity  is O(nlogn)    space complexity is O(1)
 
 
         while(low <=  high){
