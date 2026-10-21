@@ -42,3 +42,9 @@ If the divisor is 4 we can get a sum of 7 (1+1+2+3) and if the divisor is 5 the 
 ---
 
 **My Solution:** [1283-Find-the-Smallest-Divisor-Given-a-Threshold.java](./1283-Find-the-Smallest-Divisor-Given-a-Threshold.java)
+- si = 1, ei = max(nums) → search range.
+- mid → candidate divisor.
+- (nums[i] + mid - 1) / mid → ceiling division.
+- Valid → save answer and search left.
+- Invalid → search right.
+- Time complexity: \(O(n\log M)\), where \(M = \max(nums)\).
