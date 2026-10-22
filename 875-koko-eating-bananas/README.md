@@ -49,3 +49,10 @@
 ---
 
 **My Solution:** [875-Koko-Eating-Bananas.java](./875-Koko-Eating-Bananas.java)
+
+
+Remember:
+- minEatingSpeed() → Binary search se minimum speed find karta hai.
+- CalculateTotalHrs() → Given speed par total hours calculate karta hai.
+- h = available hours; mid = current eating speed.
+- Possible answer mile → left jao; hours zyada hon → right jao.
